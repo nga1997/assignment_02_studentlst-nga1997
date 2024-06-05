@@ -26,7 +26,10 @@ public class StudentLst {
         String str="";
         
         //To Do 03: complete the implementation of this method  
-        
+        for (Student student : students){
+            str += "Student's name: " + student.getName() + "\n";
+        }
+
         return str;
     }
     
